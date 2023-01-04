@@ -1,0 +1,82 @@
+/* 190101
+30120a 
+7e1011
+c00000*/
+
+body{
+
+    margin: 0%;
+}
+
+.main{
+  display: flex;
+}
+
+.left--table{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+ 
+  
+  
+}
+
+.logo img{
+width: 100%;
+}
+
+.logo{
+  padding-bottom: 70px;
+}
+
+.right--table{
+  background-image: linear-gradient(to bottom, #ffffff, #f4f4fc, #e8eafa, #dbe0f7, #ccd6f5, #c4d7f8, #bad8f9, #b0d9fa, #b0e4fd, #b5edfd, #bdf7fd, #c9fffc);
+  justify-content: right;
+  width: 80%;
+  margin-left: 20%;
+ 
+}
+
+.navbar--list{
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  justify-content: bottom;
+  margin-left: 1%;  
+}
+
+.list--options{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: none;
+  margin: 10px 0px 0px 0;
+  text-align: center;
+}
+
+.carousel {
+  margin: 10px 0px 10px 300px;
+  width:940px;
+  height:auto;
+}
+
+  img{
+  border-radius: 5%;
+}
+
+.newarrivals{
+  font: bolder;
+  font-size: 60px;
+  padding: 5% 0 0 20%;
+}
+
+.horizontal--rule{
+  height: 1px;
+  width: 100%;
+  background-color: #777;
+}
+
+.about--title{
+  margin: 1% 5% 1% 5%; 
+}
